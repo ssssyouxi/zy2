@@ -1,0 +1,66 @@
+header {background-color:#494949;color:#fff;line-height:36px;}
+.banner {overflow:hidden;}
+.banner img {position:relative;left:50%;-webkit-transform:translateX(-50%);}
+.location {width:100%;background-color:#eee;line-height:40px;margin-bottom:70px;}
+.location img {margin-bottom:12px;margin-right: 5px;}
+.footer {background-color:#313131;width:100%;height:auto;}
+.bottom_left,.bottom_right {padding-top:24px;padding-bottom:36px;}
+.lianxi {border-right:1px solid #303030;color:#dedede;}
+.lianxi p:first-child {font-size:16px;}
+.lianxi p:last-of-type {font-size:19px;padding-top:1px;}
+.bottom_list div:first-child {margin-left:100px;}
+.bottom_list p {font-size:16px;color:#dedede;}
+.bottom_list ul {list-style:none;padding-left:1px;line-height:30px;color:#bcbcbc;}
+.bottom_list ul a {color:#bcbcbc;}
+.bottom_list div:last-child,.bottom_list div:last-child .ind_img {float:right;}
+.f {background-color:#222;color:#bcbcbc;height:45px;}
+.f p {vertical-align:center;margin:0;line-height:45px;display:inline-block;}
+#fix_footer {display:none;}
+.aside .na ul {padding-top:20px;list-style:none;text-align:center;line-height:50px;font-size:18px;background:#eee;padding-bottom:30px;margin-bottom:20px;}
+.aside .na ul li {position:relative;}
+.aside .na ul li img {display:none;}
+.aside .na ul li:hover,#about #ab1,#case #ca1,#news #ne1,#product #pr1,#contact #co1 {background-color:#e03b4b;color:#fff;}
+.aside .na ul li:hover img,#about #ab1 img,#case #ca1 img,#news #ne1 img,#product #pr1 img,#contact #co1 img {display:block;}
+.touzi,.fangan {background-color:#eee;padding-bottom:30px;margin-bottom:20px;}
+.touzi p,.fangan p {line-height:50px;text-align:center;border-bottom:1px solid #bfbfbf;font-size:18px;}
+.touzi ul {list-style:none;line-height:35px;margin-top:20px;}
+.form,.form1 {background-color:#f6f6f6;}
+form {padding-top:40px;}
+.form_sub {padding-left:0 !important;float: left !important;}
+.form_sub input,.form_sub input:hover {border-color:#e03b4b;background-color:#e03b4b;color:#fff;border-radius:0;width:100px;}
+.s-img {display:none;}
+.b-img {display:block;margin:0 auto;}
+form * {margin-bottom:25px;}
+form .clearfix{margin-bottom: 0 !important}
+@media(min-width:1440px) {.banner img {width:100%;}
+}
+@media(max-width:1199px) {.banner img {width:100%;}
+.location {margin-bottom:30px;}
+}
+@media(max-width:999px) {.b-img {display:none;}
+.s-img {display:block;margin:0 auto;}
+.nav-inline li a {padding:20px 13px;}
+aside {display:none;}
+}
+@media(min-width:760px) {.doc-nav {text-align:right;}
+.nav-inline li:first-child a {padding-left:0;}
+.nav-inline li:last-child a {padding-right:0;}
+.nav-inline li a:hover,#about #ab,#case #ca,#news #ne,#product #pr {background:url(../img/line.jpg) no-repeat center 77%;}
+.nav-inline li:first-child a:hover,#index #in {background:url(../img/line.jpg) no-repeat 8% 77%;}
+.nav-inline li:last-child a:hover,#contact #co {background:url(../img/line.jpg) no-repeat 92% 77%;}
+}
+@media(max-width:759px) {.form {margin-bottom:60px;}
+form * {margin-bottom:10px;padding-left:0px !important;padding-right:0px !important;}
+.nav-inline li a {margin:0;padding:10px 0;}
+.nav-inline li a {display:block;}
+.nav-inline li a:hover,#about #ab,#case #ca,#news #ne,#product #pr,#contact #co,#index #in {background:url(../img/line2.jpg) no-repeat left bottom !important;}
+footer,.f {display:none;}
+#fix_footer {height:50px;border-top:1px solid #EEE;display:block;position:fixed;bottom:0;background-color:#fff;width:100%;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-moz-box-align:justify;-ms-flex-align:center;justify-content:space-between;align-content:center;}
+#fix_footer a {color:#5D656B;-webkit-box-flex:1;-moz-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;text-align:center;box-sizing:border-box;display:block;font-size:10px;}
+#fix_footer a span {font-size:20px;display:block;font-style:normal;width:100%;top:0;left:0;padding-left:0 !important;}
+#fix_footer a p {font-size:16px;margin:0;padding:0}
+}
+@media(max-width:400px) {header .float-left {display:none;}
+}
+@media(max-width:319px) {header {display:none;}
+}
